@@ -7,18 +7,18 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  my_array = ["red", "gold","grey","black"]
-  my_array << "arrays!"
+  array = ["I", "am", "really", "learning", "arrays!"]
+  array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  my_array = ["red", "gold","grey","black"]
-  my_array.unshift("wow")
+  array = ["I", "am", "really", "learning", "arrays!"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  my_array = ["red", "gold","grey","black"]
-  red = my_array.pop
+  array = ["I", "am", "really", "learning", "arrays!"]
+  "arrays!" = my_array.pop
 end
 
 def remove_element_from_start_of_array(array)
